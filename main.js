@@ -4,52 +4,49 @@
 
 // První příklad - vypiš vzestupně čísla od 0 do 10
 
-let cislaDoDeseti = [];
+/*let cislaDoDeseti = [];
 for (let i=1; i <= 10; i = i+1) {
     cislaDoDeseti.push(i);
 }
+console.log(cislaDoDeseti);*/
 
-console.log(cislaDoDeseti);
+let i = 0;
+while (i <=10 ) {
+    console.log(i);
+    i++;
+}
 
-let vypsanaCisla = document.querySelector("#vypsat-cisla");
-vypsanaCisla.innerHTML = cislaDoDeseti;
+/*let vypsanaCisla = document.querySelector("#vypsat-cisla");
+vypsanaCisla.innerHTML = cislaDoDeseti;*/
 
 // Druhý příklad - zkopíruj předchozí příklad
 // a vyzkoušej, jaký je rozdíl mezi <= a <
 // v podmínce uvnitř cyklu
 
-let cislaMensiDeseti = [];
+/*let cislaMensiDeseti = [];
 for (let i=1; i < 10; i = i+1) {
     cislaMensiDeseti.push(i);
 }
 
-console.log(cislaMensiDeseti);
+console.log(cislaMensiDeseti);*/
+
+let j = 0;
+while (j < 10) {
+    console.log(j);
+    j++;
+}
 
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 
-let cislaSestupne = [];
+/*let cislaSestupne = [];
 for (let i=10; i > 0; i = i-1) {
     cislaSestupne.push(i);
 }
 
-console.log(cislaSestupne);
+console.log(cislaSestupne);*/
 
-
-let i = 10;
-while (i >=0) {
-    console.log("while " + i);
-    i--;
+let k = 10;
+while (k >=0) {
+    console.log(k);
+    k--;
 }
-
-
-/*
-let podminka = true;
-let nahoda;
-while (podminka) {
-    nahoda = Math.floor(Math.random() * 10);
-    if (nahoda > 5) {
-        podminka = false;
-    }
-    console.log(nahoda);
-}
-*/
