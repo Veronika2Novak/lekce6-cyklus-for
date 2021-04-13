@@ -33,3 +33,23 @@ for (let i=10; i > 0; i = i-1) {
 }
 
 console.log(cislaSestupne);
+
+
+let i = 10;
+while (i >=0) {
+    console.log("while " + i);
+    i--;
+}
+
+
+/*
+let podminka = true;
+let nahoda;
+while (podminka) {
+    nahoda = Math.floor(Math.random() * 10);
+    if (nahoda > 5) {
+        podminka = false;
+    }
+    console.log(nahoda);
+}
+*/
